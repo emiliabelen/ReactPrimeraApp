@@ -11,10 +11,10 @@ const Contador = () => {
   //}
   return (
     <section>
-      <h2>Contador</h2>
+      <h2 className="container">Contador</h2>
       <h3>{numero}</h3>
-      <button onClick={() => setNumero(numero + 1)}>+1</button>
-      <button onClick={() => setNumero(numero - 1)}>-1</button>
+      <button className ="btn btn-outline-success" size="lg" onClick={() => setNumero(numero + 1)}>+1</button>
+      <button className ="btn btn-outline-danger" size="sm" onClick={() => setNumero(numero - 1)}>-1</button>
     </section>
   );
 };

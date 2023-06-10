@@ -1,6 +1,9 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 import "./App.css";
 import Contador from "./componentes/Contador";
 import Titulos from "./componentes/Titulos";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   //aqui logica
